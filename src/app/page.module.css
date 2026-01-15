@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #0a0e27, #1a1a3e);
-  color: #fff;
+  background: linear-gradient(135deg, #F5EBE0, #EDE5DC);
+  color: #2c2c2c;
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ body {
   height: 400px;
   border-radius: 20px;
   margin-bottom: 30px;
-  border: 4px solid #8a2be2;
+  border: 4px solid ;
   box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .h1Span {
-  background: linear-gradient(135deg, #8a2be2, #ff006e, #00d9ff);
+  background: linear-gradient(135deg, #D946A6, #EC4899, #F43F5E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -59,7 +59,7 @@ body {
   max-width: 900px;
   margin: 0 auto 40px;
   line-height: 1.8;
-  color: #e0e0ff;
+  color: #4a4a4a;
 }
 
 .ctaButtons {
@@ -84,23 +84,23 @@ body {
 }
 
 .primaryBtn {
-  background: linear-gradient(135deg, #8a2be2, #ff006e);
+  background: linear-gradient(135deg, #D946A6, #EC4899);
   color: #fff;
 }
 
 .primaryBtn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(138, 43, 226, 0.6);
+  box-shadow: 0 10px 30px rgba(217, 70, 166, 0.6);
 }
 
 .secondaryBtn {
-  background: rgba(0, 217, 255, 0.2);
-  color: #00d9ff;
-  border: 2px solid #00d9ff;
+  background: rgba(244, 63, 94, 0.2);
+  color: #DC2626;
+  border: 2px solid #DC2626;
 }
 
 .secondaryBtn:hover {
-  background: rgba(0, 217, 255, 0.3);
+  background: rgba(244, 63, 94, 0.3);
   transform: translateY(-3px);
 }
 
@@ -108,25 +108,25 @@ body {
 .heroBox {
   background: linear-gradient(
     135deg,
-    rgba(138, 43, 226, 0.15),
-    rgba(75, 0, 130, 0.15)
+    rgba(244, 63, 94, 0.1),
+    rgba(217, 70, 166, 0.1)
   );
   border-radius: 20px;
   padding: 50px;
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(217, 70, 166, 0.3);
   margin-bottom: 60px;
-  box-shadow: 0 0 40px rgba(138, 43, 226, 0.2);
+  box-shadow: 0 0 40px rgba(217, 70, 166, 0.2);
 }
 
 .heroBox h2 {
   font-size: 2.5rem;
-  color: #ff006e;
+  color: #DC2626;
   margin-bottom: 20px;
 }
 
 .heroBox h3 {
   font-size: 1.8rem;
-  color: #00d9ff;
+  color: #D946A6;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -136,6 +136,7 @@ body {
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 20px;
+  color: #4a4a4a;
 }
 
 /* CONTRACT BOX */
@@ -152,24 +153,24 @@ body {
   max-width: 90%;
   padding: 14px;
   border-radius: 10px;
-  border: 2px solid #8a2be2;
-  background: rgba(20, 20, 40, 0.8);
-  color: #00d9ff;
+  border: 2px solid #D946A6;
+  background: rgba(244, 63, 94, 0.1);
+  color: #DC2626;
   outline: none;
   font-size: 1rem;
   transition: 0.3s;
 }
 
 .contractBox input:focus {
-  border-color: #ff006e;
-  box-shadow: 0 0 15px rgba(255, 0, 110, 0.4);
+  border-color: #EC4899;
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.4);
 }
 
 .copyBtn {
   padding: 14px 28px;
   border-radius: 10px;
   border: none;
-  background: linear-gradient(135deg, #8a2be2, #ff006e);
+  background: linear-gradient(135deg, #D946A6, #EC4899);
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -179,7 +180,7 @@ body {
 
 .copyBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);
+  box-shadow: 0 8px 20px rgba(217, 70, 166, 0.5);
 }
 
 /* FEATURES SECTION */
@@ -189,7 +190,7 @@ body {
 
 .featuresSection h2 {
   font-size: 2.8rem;
-  color: #00d9ff;
+  color: #D946A6;
   margin-bottom: 50px;
 }
 
@@ -203,24 +204,24 @@ body {
 .featureCard {
   background: linear-gradient(
     135deg,
-    rgba(138, 43, 226, 0.2),
-    rgba(0, 217, 255, 0.1)
+    rgba(244, 63, 94, 0.1),
+    rgba(217, 70, 166, 0.1)
   );
   padding: 40px;
   border-radius: 15px;
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(217, 70, 166, 0.3);
   transition: 0.3s;
 }
 
 .featureCard:hover {
   transform: translateY(-10px);
-  border-color: #ff006e;
-  box-shadow: 0 15px 40px rgba(138, 43, 226, 0.3);
+  border-color: #DC2626;
+  box-shadow: 0 15px 40px rgba(217, 70, 166, 0.3);
 }
 
 .featureCard h3 {
   font-size: 1.5rem;
-  color: #ff006e;
+  color: #DC2626;
   margin-bottom: 15px;
 }
 
@@ -228,6 +229,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   opacity: 0.85;
+  color: #4a4a4a;
 }
 
 /* TOKENOMICS */
@@ -236,39 +238,40 @@ body {
   padding: 60px 30px;
   background: linear-gradient(
     135deg,
-    rgba(138, 43, 226, 0.1),
-    rgba(75, 0, 130, 0.1)
+    rgba(244, 63, 94, 0.1),
+    rgba(217, 70, 166, 0.1)
   );
   border-radius: 20px;
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(217, 70, 166, 0.3);
 }
 
 .tokenomics h2 {
   font-size: 2.8rem;
   margin-bottom: 15px;
-  color: #00d9ff;
+  color: #D946A6;
 }
 
 .tokenomicsDesc {
   font-size: 1.1rem;
   opacity: 0.8;
   margin-bottom: 40px;
+  color: #4a4a4a;
 }
 
 .bar {
   width: 100%;
-  background: rgba(20, 20, 40, 0.8);
+  background: rgba(244, 63, 94, 0.2);
   border-radius: 30px;
   overflow: hidden;
   height: 50px;
   display: flex;
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(217, 70, 166, 0.3);
   margin-bottom: 20px;
 }
 
 .liquidity {
   width: 97%;
-  background: linear-gradient(90deg, #8a2be2, #ff006e);
+  background: linear-gradient(90deg, #D946A6, #EC4899);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,13 +283,13 @@ body {
 
 .team {
   width: 3%;
-  background: linear-gradient(90deg, #00d9ff, #00a8cc);
+  background: linear-gradient(90deg, #F43F5E, #EC4899);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 0.8rem;
-  color: #000;
+  color: #fff;
 }
 
 .labels {
@@ -295,6 +298,7 @@ body {
   font-size: 1rem;
   opacity: 0.8;
   font-weight: 600;
+  color: #4a4a4a;
 }
 
 /* ROADMAP SECTION */
@@ -305,7 +309,7 @@ body {
 
 .roadmapSection h2 {
   font-size: 2.8rem;
-  color: #00d9ff;
+  color: #D946A6;
   margin-bottom: 50px;
 }
 
@@ -318,25 +322,25 @@ body {
 .milestone {
   background: linear-gradient(
     135deg,
-    rgba(138, 43, 226, 0.2),
-    rgba(0, 217, 255, 0.1)
+    rgba(244, 63, 94, 0.1),
+    rgba(217, 70, 166, 0.1)
   );
   padding: 40px;
   border-radius: 15px;
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(217, 70, 166, 0.3);
   transition: 0.3s;
 }
 
 .milestone:hover {
   transform: translateY(-10px);
-  border-color: #ff006e;
-  box-shadow: 0 15px 40px rgba(138, 43, 226, 0.3);
+  border-color: #DC2626;
+  box-shadow: 0 15px 40px rgba(217, 70, 166, 0.3);
 }
 
 .milestoneNumber {
   font-size: 2rem;
   font-weight: 900;
-  background: linear-gradient(135deg, #8a2be2, #ff006e);
+  background: linear-gradient(135deg, #D946A6, #EC4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -345,7 +349,7 @@ body {
 
 .milestone h4 {
   font-size: 1.4rem;
-  color: #00d9ff;
+  color: #DC2626;
   margin: 15px 0;
 }
 
@@ -353,6 +357,7 @@ body {
   font-size: 0.95rem;
   opacity: 0.85;
   line-height: 1.6;
+  color: #4a4a4a;
 }
 
 /* FOOTER */
@@ -361,8 +366,9 @@ body {
   padding: 40px 20px;
   opacity: 0.75;
   font-size: 0.95rem;
-  border-top: 2px solid rgba(138, 43, 226, 0.3);
+  border-top: 2px solid rgba(217, 70, 166, 0.3);
   text-align: center;
+  color: #4a4a4a;
 }
 
 .footer p {
@@ -378,13 +384,13 @@ body {
 /* NAV BAR */
 .nav {
   width: 100%;
-  background: rgba(10, 14, 39, 0.9);
+  background: #b1764b;
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 999;
   padding: 16px 0;
-  border-bottom: 2px solid rgba(138, 43, 226, 0.3);
+  border-bottom: 2px solid rgba(217, 70, 166, 0.3);
 }
 
 .navInner {
@@ -399,10 +405,11 @@ body {
 .navLogo {
   font-weight: bold;
   font-size: 1.5rem;
-  background: linear-gradient(135deg, #8a2be2, #ff006e);
-  -webkit-background-clip: text;
+  color: #F5EBE0;
+  /* background: linear-gradient(135deg, #D946A6, #EC4899); */
+  /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background-clip: text; */
   letter-spacing: 2px;
   display: flex;
   align-items: center;
@@ -413,7 +420,7 @@ body {
   border-radius: 100%;
   width: 40px;
   height: 40px;
-  border: 2px solid #8a2be2;
+  border: 2px solid #D946A6;
 }
 
 .navLinks {
@@ -423,7 +430,7 @@ body {
 
 .navLinks a {
   text-decoration: none;
-  color: #e0e0ff;
+  color: #f5ebe0;
   font-weight: 600;
   transition: 0.3s;
   position: relative;
@@ -436,12 +443,12 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(135deg, #8a2be2, #ff006e);
+  background: linear-gradient(135deg, #D946A6, #EC4899);
   transition: 0.3s;
 }
 
 .navLinks a:hover {
-  color: #ff006e;
+  color: #EC4899;
 }
 
 .navLinks a:hover::after {
